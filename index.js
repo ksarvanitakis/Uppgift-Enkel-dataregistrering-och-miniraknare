@@ -1,16 +1,23 @@
-const greeting = prompt("What is your name?")
+const greeting = prompt("What is your name?");
 
-console.log("Hallo " + greeting)
+const hallo = `Hallo ${greeting}`;
 
-const year = prompt("What is your year of birth")
+const backTicks = alert(hallo)
 
-const age = new Date().getFullYear(2024) - year
+// console.log("Hallo " + greeting)
+const isOver20 = confirm("Are you over the age of 20?");
 
-console.log(greeting + " your age is " + age + " years old!")
+alert(`Are you over 20? ${isOver20}`);
 
-const number = parseInt("your age is " + age + " years old!")
+const year = prompt("What is your year of birth");
 
-const message = alert(greeting + " all the counts are now done. Go and check them in the console!")
+const age = new Date().getFullYear(2024) - year;
+
+console.log(greeting + " your age is " + age + " years old!");
+
+const number = parseInt("your age is " + age + " years old!");
+
+const message = alert(greeting + " all the counts are now done. Go and check them in the console!");
 
 
 
@@ -21,3 +28,4 @@ const fistQuestion = prompt("Pick a language")
 const secondQuestion = prompt("Pick another language")
 
 const trirdQuestion = prompt("Which counting system would you like to choose?")
+
